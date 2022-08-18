@@ -2,7 +2,7 @@ states=0
 ip=str(input())
 op=[*ip]
 
-for i in op:
+for i in op:	
 	match states:
 		case 0:
 			if i=='a':
